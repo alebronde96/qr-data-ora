@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Data e Ora Attuali</title>
+</head>
+<body>
+  <h1>Data e Ora Attuali</h1>
+  <p id="datetime"></p>
+
+  <script>
+    const now = new Date();
+    document.getElementById("datetime").innerText = now.toLocaleString('it-IT');
+  </script>
+</body>
+</html>
